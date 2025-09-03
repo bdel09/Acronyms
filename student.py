@@ -3,9 +3,9 @@
 
 mess = input("Enter a phrase: ")
 MESS = mess.upper()
-print("Your Phrase in Capital Letters:", "MESS")
+print("MESS")
 message = MESS.split()
 acronym = ""
 for i in message :
     acronym += i[0]
-print("Acronym:", acronym)
+print(acronym)
