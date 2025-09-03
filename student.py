@@ -3,7 +3,7 @@
 
 mess = input("Enter a phrase: ")
 MESS = mess.upper()
-print("MESS")
+print(MESS)
 message = MESS.split()
 acronym = ""
 for i in message :
